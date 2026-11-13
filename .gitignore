@@ -1,0 +1,36 @@
+## Build
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+
+## IDE / OS
+.vs/
+.idea/
+*.user
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+
+## NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+## Test / coverage
+TestResults/
+coverage*
+*.coverage
+*.coveragexml
+
+## App output
+analyzers_report.json
+*.log
+
+## Методички (лабораторные работы)
+*.pdf
+*.docx
+Лабораторная работа*.pdf
+Лабораторная работа*.docx
