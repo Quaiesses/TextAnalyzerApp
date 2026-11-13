@@ -111,6 +111,7 @@ namespace TextAnalyzerApp
                 .CreateLogger();
 
             Log.Information("=== Запуск системы анализа текста с Serilog и JSON ===");
+            LoggingHelper.Info("LoggingHelper активен");
 
             try
             {
